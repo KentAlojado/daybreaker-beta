@@ -1,0 +1,96 @@
+@media screen and (min-width:721px){
+.ColThree{float:left;width:33%;margin:32px 0;padding:0px 15px;}
+.two-thirds, .one-third{float: left;}
+.two-thirds {width: 70%;}
+.one-third{width:30%;}
+}
+@media screen and (min-width:641px){
+.split {float: left;width: 50%;}
+.split:last-child{text-align:right;}
+.FootBlog img {float: left;margin-right: 10px;max-width:90px;height:80px;}
+.steps-step-2 {float: left;width: 20%;text-align: center;}
+}
+@media screen and (max-width:640px){
+.FootBlog img {float: left;margin-right: 10px;max-width:90px;height:80px;}
+.ColThree {text-align: center;}
+.FootBlog {text-align: left;}
+.steps-step-2 {float:none;width:100%;text-align: center;}
+}
+body{
+font-family:sans-serif;font-size:16px;
+}
+.logo-sec{padding:1rem 0;}
+.navbar-brand img {margin-bottom:0;}
+.wrapping .nav-item {padding: .5rem .3rem 0;margin: 0;}
+.wrapping .navbar {padding:0;}
+.bg-grey-dark.banner-sec {
+position: relative;
+background-color: black;
+height: 75vh;
+min-height: 25rem;
+width: 100%;
+overflow: hidden;
+}
+.bg-cs {background-color: #41c8f5;}
+.RmSec.bg-cs {padding: 12px;margin: 0 auto 12px;max-width: 200px;}
+a.bg-cs.cbtn:hover {color: #f2f2f2;text-decoration: none;}
+.RmSec.bg-cs a {text-decoration: none;font-size: 20px;font-weight: 700;color: #3d4852;}
+.cbtn {padding: .5rem 1.5rem;text-decoration: none;font-size: 20px;font-weight: 700;color:#fff;}
+.bg-cs.rm {color: #fff;padding: 10px 16px;}
+.overlay {position: absolute;top:0;left: 0;height: 100%;width: 100%;background-color: black;opacity: 0.5;z-index: 1;}
+.container {position: relative;z-index:2;}
+video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+.wrapping.home {padding: 3rem 0;}
+.wrapping.home.center {text-align:center;}
+.wrapping{max-width:86%;margin:0 auto;}
+.wrapping.home h3 {padding: 0;margin: .75rem 0;}
+.wrapping.home img {margin-bottom: 0;}
+.cheading {margin: .75rem 0;font-size: 32px;}
+.third-wrap, .split-wrap{overflow:auto;padding:12px 0;}
+.bg-grey-dark {background-color: #292929;}
+.text-white {color: #fff;}
+.leading-loose {margin-bottom: 14px;}
+.footer-widget-sec .ColThree h3 {margin: .75rem 0;border-bottom: 1px dashed #ddd;padding: .75rem 0;}
+.FootBlog {padding-left: 0;margin-left:0;}
+.FootBlog li {list-style: none;margin-bottom:20px;overflow: auto;}
+.FootBlog h4 {margin: 12px 0;}
+ul.CList,.blog-sec ul {list-style: none;padding-left: 0;margin-left:0;}
+.CList li {padding-bottom:0px;}
+.li-blog {padding: 24px 0 16px;border-top: 1px dashed #ccc;}
+h4.blogTitle {margin: 12px 0 10px;}
+.ourMap{width:768px;height:640px;max-width:100%;border:none;}
+.steps.wrapping {overflow: auto;}
+.steps-step-2{margin-bottom:12px;}
+.steps i {font-size: 60px;padding: 16px 0;}
+.steps * {color: #fff;font-size:18px;}
+.cheading.banner-head{text-align:left;}
+.cheading{text-align:center;}
+.wrapping.tutorial{padding: 2rem 0;margin: 1rem auto 0;border-top: 1px solid #ccc;}
+.lesson-nav li a{color:hsla(0, 0%, 0%, 0.8);}
+.lesson-nav li {font-size: 17px;padding: 6px 10px 5px;margin-bottom: 8px;}
+ol.lesson-nav{list-style-position:inside;margin-left:0;}
+.lesson-nav li.current-link {background-color: #3fc8f2;color:#fff;max-width: 250px;font-weight:bold;}
+.lft.bg-cs {padding: 12px;max-width: 200px;text-align:center;}
+.lft.bg-cs a {text-decoration: none;font-size: 20px;font-weight: 700;color: #fff;}
+.lesson-nav li a:hover {color: #808080;text-decoration: none;}
+.tutorial .two-thirds h4 {font-size: 26px;}
+.tutorial .fa {font-size: 12px;}
+.wrapping .dropdown-menu .nav-item {padding: 0;}
+.wrapping .dropdown-menu .nav-link {padding:0rem 1rem;}
+.dropdown-divider {margin: .3rem 0;}
+.SliderCont{margin:2rem 0 6rem;}
+.SlideSec{text-align:center;max-width:600px;}
+.SlideSec img{max-width:600px;}
