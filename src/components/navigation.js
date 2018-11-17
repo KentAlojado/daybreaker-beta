@@ -39,29 +39,6 @@ export default class Example extends React.Component {
               <NavItem>
                 <NavLink href="/about">About</NavLink>
               </NavItem>
-              <UncontrolledDropdown nav inNavbar>
-                <DropdownToggle nav caret>
-                  Tutorials
-                </DropdownToggle>
-                <DropdownMenu right>
-              <NavItem>
-                <NavLink href="#">HTML</NavLink>
-              </NavItem>
-				  <DropdownItem divider />
-              <NavItem>
-                <NavLink href="#">CSS</NavLink>
-              </NavItem>
-				  <DropdownItem divider />
-              <NavItem>
-                <NavLink href="#">JQuery</NavLink>
-              </NavItem>
-				  <DropdownItem divider />
-              <NavItem>
-                <NavLink href="#">Javascript</NavLink>
-              </NavItem>			  
-                </DropdownMenu>
-              </UncontrolledDropdown>
-			  
               <NavItem>
                 <NavLink href="/blog">Blog</NavLink>
               </NavItem>			  

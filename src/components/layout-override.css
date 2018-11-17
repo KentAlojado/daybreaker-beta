@@ -31,10 +31,27 @@ min-height: 25rem;
 width: 100%;
 overflow: hidden;
 }
-.bg-cs {background-color: #41c8f5;}
+.bg-cs {background-color: #9cffde;}
+.bg-cs:hover{background-color: #000;transition-duration:.3s;}
 .RmSec.bg-cs {padding: 12px;margin: 0 auto 12px;max-width: 200px;}
+.evnt-bg {height: 200px;box-shadow: 1px 10px 15px #ccc;}
+.evnt-bg.new-york{background-image:url(../images/new-york.jpg);}
+.evnt-bg.sanf{background-image:url(../images/san-francisco.jpg);}
+.evnt-bg.miami{background-image:url(../images/miami.jpg);}
+.evnt-bg .evnt-date{float:left;background-color:#fff;padding:10px 20px;font-size:18px;line-height:1.1;}
+.date-number-color{color:#ff6a6a;font-size:32px;}
 a.bg-cs.cbtn:hover {color: #f2f2f2;text-decoration: none;}
-.RmSec.bg-cs a {text-decoration: none;font-size: 20px;font-weight: 700;color: #3d4852;}
+.RmSec{padding:.75rem 0;}
+.HdrSec{float:left;font-size:22px;padding:6px 0;}
+.RmSec .bg-cs {float: right;padding: 10px 24px;font-weight: bold;}
+.Evnt-Soc .bg-cs{text-align:center;max-width:50%;margin:0 auto;}
+.Evnt-Soc .bg-cs h2{padding:1rem;}
+.BigButton {height: 150px;}
+.BigButton .bg-cs{padding:1rem 2.5rem;}
+a.rm-sec {color: #000;text-decoration: none;}
+.mischief-cs {font-size: 18px;margin:12px 0;}
+.mischief-cs .bg-cs{padding:10px;}
+.bg-cs:hover{color:#fff;}
 .cbtn {padding: .5rem 1.5rem;text-decoration: none;font-size: 20px;font-weight: 700;color:#fff;}
 .bg-cs.rm {color: #fff;padding: 10px 16px;}
 .overlay {position: absolute;top:0;left: 0;height: 100%;width: 100%;background-color: black;opacity: 0.5;z-index: 1;}
