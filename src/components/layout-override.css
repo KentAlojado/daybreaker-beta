@@ -1,5 +1,6 @@
 @media screen and (min-width:721px){
 .ColThree{float:left;width:33%;margin:32px 0;padding:0px 15px;}
+.ColFive{float:left;width:20%;margin:32px 0;padding:0px 15px;}
 .two-thirds, .one-third{float: left;}
 .two-thirds {width: 70%;}
 .one-third{width:30%;}
@@ -89,10 +90,6 @@ ul.CList,.blog-sec ul {list-style: none;padding-left: 0;margin-left:0;}
 .li-blog {padding: 24px 0 16px;border-top: 1px dashed #ccc;}
 h4.blogTitle {margin: 12px 0 10px;}
 .ourMap{width:768px;height:640px;max-width:100%;border:none;}
-.steps.wrapping {overflow: auto;}
-.steps-step-2{margin-bottom:12px;}
-.steps i {font-size: 60px;padding: 16px 0;}
-.steps * {color: #fff;font-size:18px;}
 .cheading.banner-head{text-align:left;}
 .cheading{text-align:center;}
 .wrapping.tutorial{padding: 2rem 0;margin: 1rem auto 0;border-top: 1px solid #ccc;}
@@ -111,3 +108,4 @@ ol.lesson-nav{list-style-position:inside;margin-left:0;}
 .SliderCont{margin:2rem 0 6rem;}
 .SlideSec{text-align:center;max-width:600px;}
 .SlideSec img{max-width:600px;}
+.wrapping.home .ColFive img{margin-bottom: 20px;background-color: #eee;padding: 6px 12px 4px;border-radius: 50%;}

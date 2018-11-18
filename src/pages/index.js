@@ -12,6 +12,12 @@ import MischiefIMGB from "../images/mischief-a.png";
 import MischiefIMGC from "../images/mischief-b.png";
 import BringCity from "../images/city-img.png";
 import NewsIMG from "../images/news.png";
+import BuzzIMG from "../images/buzz.png";
+import FastComIMG from "../images/fastcom.png";
+import GQIMG from "../images/gq.png";
+import NBCIMG from "../images/nbc.png";
+import MashableIMG from "../images/mashable.png";
+import JoinUs from "../images/join-us.png";
 const ColThreeContainer = styled.div`
 clear:all;overflow:auto;margin:0 0 1rem;
 `
@@ -128,64 +134,32 @@ We partner with epic brands to design unforgettable experiences.
 <div className="wrapping home center">
 <img src={NewsIMG} alt="Events" width="" height=""/>
 <ColThreeContainer>
-<div className="ColThree">
-<div className="evnt-bg new-york">
-<p className="evnt-date">NOV<br/><span className="date-number-color">11</span><br/>SUN</p>
+<div className="ColFive">
+<img src={NBCIMG} alt="NBC"/><br/>
+"Parties like Daybreaker really show how much fun you can have sober."
 </div>
-<div className="RmSec">
-<div className="HdrSec">NEW YORK</div>
-<div className="bg-cs">GET TIX</div>
+<div className="ColFive">
+<img src={BuzzIMG} alt="NBC"/><br/>
+"Do I need coffee? No, I'm going to be energized by dance!"
 </div>
+<div className="ColFive">
+<img src={MashableIMG} alt="NBC"/><br/>
+"What makes Daybreaker unique is its curation of live entertainment."
 </div>
-<div className="ColThree">
-<div className="evnt-bg sanf">
-<p className="evnt-date">NOV<br/><span className="date-number-color">16</span><br/>FRI</p>
+<div className="ColFive">
+<img src={FastComIMG} alt="NBC"/><br/>
+"Doing something strange together can change team and creative dynamics in a really positive way."
 </div>
-<div className="RmSec">
-<div className="HdrSec">SAN FRANCISCO</div>
-<div className="bg-cs">GET TIX</div>
-</div>
-</div>
-<div className="ColThree">
-<div className="evnt-bg miami">
-<p className="evnt-date">NOV<br/><span className="date-number-color">17</span><br/>SAT</p>
-</div>
-<div className="RmSec">
-<div className="HdrSec">MIAMI</div>
-<div className="bg-cs">GET TIX</div>
-</div>
-</div>
-</ColThreeContainer>
-<ColThreeContainer>
-<div className="ColThree">
-<div className="evnt-bg new-york">
-<p className="evnt-date">NOV<br/><span className="date-number-color">22</span><br/>THU</p>
-</div>
-<div className="RmSec">
-<div className="HdrSec">BUENOS AIRES</div>
-<div className="bg-cs">GET TIX</div>
-</div>
-</div>
-<div className="ColThree">
-<div className="evnt-bg sanf">
-<p className="evnt-date">NOV<br/><span className="date-number-color">28</span><br/>WED</p>
-</div>
-<div className="RmSec">
-<div className="HdrSec">SEATTLE</div>
-<div className="bg-cs">GET TIX</div>
-</div>
-</div>
-<div className="ColThree">
-<div className="evnt-bg miami">
-<p className="evnt-date">NOV<br/><span className="date-number-color">30</span><br/>FRI</p>
-</div>
-<div className="RmSec">
-<div className="HdrSec">NEW YORK</div>
-<div className="bg-cs">GET TIX</div>
-</div>
+<div className="ColFive">
+<img src={GQIMG} alt="NBC"/><br/>
+"Welcome to the world of morning raves: just a super-awesome start to your day."
 </div>
 </ColThreeContainer>
 </div>	
+<div className="wrapping home center">
+<img src={JoinUs} alt="Join Us"/><br/>
+<b>UNLOCK SECRET INVITES & OUR WEEKLY ROUNDUP OF GLOBAL MISCHIEF</b>
+</div>
   </Layout>
 )
 
