@@ -159,6 +159,61 @@ We partner with epic brands to design unforgettable experiences.
 <div className="wrapping home center">
 <img src={JoinUs} alt="Join Us"/><br/>
 <b>UNLOCK SECRET INVITES & OUR WEEKLY ROUNDUP OF GLOBAL MISCHIEF</b>
+<form className="frm-sec">
+<select name="g" id="ui-id-7">
+<option value="nEwkgi">Stockholm</option>
+<option value="ivWh8w">Berlin</option>
+<option value="iL5tPH">Tel Aviv</option>
+<option value="hKx8sL">Dubai</option>
+<option value="iFPXTb">Lisbon</option>
+<option value="qMJLNS">Mexico City</option>
+<option value="xbL83W">Barcelona</option>
+<option value="zFms3E">New Orleans</option>
+<option value="F5Dvax">Kansas City</option>
+<option value="zjthg7">Dublin</option>
+<option value="ANpN2S">Melbourne</option>
+<option value="CW5BWT">Detroit</option>
+<option value="D4LXrW">Houston</option>
+<option value="FJApqa">Phoenix</option>
+<option value="Fb8pxB">Minneapolis</option>
+<option value="ivFwaJ">Mumbai</option>
+<option value="kBsEQw">Istanbul</option>
+<option value="ngshk7">Portland</option>
+<option value="tmV48S">Dallas</option>
+<option value="QqF2DX">Brussels</option>
+<option value="KrrZte">Baltimore</option>
+<option value="PWdH9u">Oslo</option>
+<option value="kBDncF">Boston</option>
+<option value="iNXRuA">Toronto</option>
+<option value="qhBYXd">Philadelphia</option>
+<option value="j6mPUA">New York</option>
+<option value="qPHNU9">Chicago</option>
+<option value="pD4UeU">Atlanta</option>
+<option value="KSzpZ5">Columbus</option>
+<option value="hJzbfB">Washington DC</option>
+<option value="mS9d8v">Vancouver</option>
+<option value="n88wMC">Seattle</option>
+<option value="rrKQsf">Nashville</option>
+<option value="psydfD">Montreal</option>
+<option value="uVspNT">Boulder</option>
+<option value="isnvHs">Denver</option>
+<option value="qt3nvZ">Miami</option>
+<option value="npFeQW">San Francisco</option>
+<option value="isitjg">Austin</option>
+<option value="nyL6Ug">Los Angeles</option>
+<option value="uVXRfS">San Diego</option>
+<option value="LbBqDk">Buenos Aires</option>
+<option value="hHMLaW">Amsterdam</option>
+<option value="hFmmsy">London</option>
+<option value="nXpaZ4">Paris</option>
+<option value="kLM8q8">Sydney</option>
+<option value="quZdza">Tokyo</option>
+<option value="ii4ntX">Shanghai</option>
+<option value="nZZRuy">Hong Kong</option>
+</select>
+<input type="email" placeholder="youremail@domain.com"/>
+<input className="bg-cs" type="submit" value="Join Now"/>
+</form>
 </div>
   </Layout>
 )

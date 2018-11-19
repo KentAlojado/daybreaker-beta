@@ -4,18 +4,23 @@
 .two-thirds, .one-third{float: left;}
 .two-thirds {width: 70%;}
 .one-third{width:30%;}
+.frm-sec input[type="email"] {margin-right: 6px;}
 }
 @media screen and (min-width:641px){
 .split {float: left;width: 50%;}
 .split:last-child{text-align:right;}
 .FootBlog img {float: left;margin-right: 10px;max-width:90px;height:80px;}
 .steps-step-2 {float: left;width: 20%;text-align: center;}
+.frm-sec select, .from-sec input {float: left;}
 }
 @media screen and (max-width:640px){
+.BigButton .bg-cs {font-size: 24px;}
 .FootBlog img {float: left;margin-right: 10px;max-width:90px;height:80px;}
 .ColThree {text-align: center;}
 .FootBlog {text-align: left;}
 .steps-step-2 {float:none;width:100%;text-align: center;}
+.Evnt-Soc .ColThree img{max-width:320px;}
+.bg-black.footr{text-align:center;}
 }
 body{
 font-family:sans-serif;font-size:16px;
@@ -102,6 +107,7 @@ ol.lesson-nav{list-style-position:inside;margin-left:0;}
 .lesson-nav li a:hover {color: #808080;text-decoration: none;}
 .tutorial .two-thirds h4 {font-size: 26px;}
 .tutorial .fa {font-size: 12px;}
+.Evnt-Soc .ColThree{padding-bottom:32px;}
 .wrapping .dropdown-menu .nav-item {padding: 0;}
 .wrapping .dropdown-menu .nav-link {padding:0rem 1rem;}
 .dropdown-divider {margin: .3rem 0;}
@@ -109,3 +115,21 @@ ol.lesson-nav{list-style-position:inside;margin-left:0;}
 .SlideSec{text-align:center;max-width:600px;}
 .SlideSec img{max-width:600px;}
 .wrapping.home .ColFive img{margin-bottom: 20px;background-color: #eee;padding: 6px 12px 4px;border-radius: 50%;}
+.bg-black{background-color:#000;}
+.footr.bg-black{padding:2rem 0;}
+.bg-black .wrapping.split-wrap {font-size: 14px;}
+.iconz {border: 2px solid #fff;padding: 12px 10px 8px;margin-right: 6px;border-radius: 50%;}
+.bg-black i.fa-facebook {padding: 0 2px;}
+.bg-black i {font-size: 20px;}
+.footr .split:last-child img{margin:0;}
+p.soc-iconz{margin-bottom:16px;margin-top:20px;}
+.frm-sec {max-width: 600px;margin:32px auto;}
+.frm-sec select {
+	padding: 12px 18px;
+	background:url(../images/down.png) #eee no-repeat 128px 18px;
+	border: none;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+}
+input.bg-cs {border: none;padding: 10px 16px;font-size: 18px;}
+.frm-sec input[type="email"] {padding: 10px 15px;border:none;min-width: 320px;}
