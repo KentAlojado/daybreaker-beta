@@ -1,4 +1,5 @@
 import React from 'react';
+import SliderNav from '../components/nav-slider';
 import { Button, Popover, PopoverBody } from 'reactstrap';
 
 export default class Example extends React.Component {
@@ -20,11 +21,15 @@ export default class Example extends React.Component {
   render() {
     return (
       <div>
-        <a id="Popover1" onClick={this.toggle} onMouseOver={this.toggle} onMouseOut={this.toggle}>
+        <a id="Popover1" onClick={this.toggle}>
           Events
         </a>
         <Popover placement="bottom" isOpen={this.state.popoverOpen} target="Popover1" toggle={this.toggle}>
-          <PopoverBody>Sed posuere consectetur est at lobortis. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</PopoverBody>
+          <PopoverBody>
+			<p>We are in 22 cities with more on the way. Join us in the early hours all around the globe.<br/>
+			<div className="bg-cs">Events Calendar</div></p>
+			<SliderNav />
+		  </PopoverBody>
         </Popover>
       </div>
     );

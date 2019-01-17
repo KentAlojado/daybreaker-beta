@@ -1,6 +1,5 @@
 import React from 'react';
 import LogoIMG from "../images/logo-full.gif";
-import NavModal from "../components/nav-modal";
 import "./navigation.css";
 import {
   Collapse,
@@ -38,7 +37,7 @@ export default class Example extends React.Component {
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <NavLink href="#"><NavModal /></NavLink>
+                <NavLink href="#">Events</NavLink>
               </NavItem>
               <NavItem>
                 <NavLink href="#">Communities</NavLink>
@@ -47,7 +46,7 @@ export default class Example extends React.Component {
                 <NavLink href="/about">About</NavLink>
               </NavItem>	
               <NavItem>
-                <NavLink href="#">Partners</NavLink>
+                <NavLink href="/partners">Partners</NavLink>
               </NavItem>
               <NavItem>
                 <NavLink href="#">Mischief</NavLink>

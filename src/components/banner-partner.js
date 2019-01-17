@@ -1,5 +1,6 @@
 import React from "react";
-const Banner = () => (
+import PopupAbout from "../components/popup-about";
+const BannerPartner = () => (
   <div className="bg-grey-dark banner-sec">
   <div class="overlay"></div>
   <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
@@ -8,12 +9,10 @@ const Banner = () => (
     <div class="container h-100">
     <div class="d-flex text-center h-100">
       <div class="my-auto w-100 text-white">
-        <h1 class="banner-heading">WAKE UP & DANCE</h1>
-        <h2>WELLNESS | COMMUNITY | MUSIC | MISCHIEF</h2>
-		<p>Join our community of 500,000+ Worldwide</p>
+<PopupAbout />
       </div>
     </div>
   </div>
   </div>
 );
-export default Banner;
+export default BannerPartner;

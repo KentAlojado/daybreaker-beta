@@ -1,0 +1,11 @@
+@font-face {
+	font-family: 'Streetbrush';
+	src: url('Streetbrush.eot');
+	src: url('Streetbrush.eot?#iefix') format('embedded-opentype'),
+		url('Streetbrush.woff2') format('woff2'),
+		url('Streetbrush.woff') format('woff'),
+		url('Streetbrush.ttf') format('truetype'),
+		url('Streetbrush.svg#Streetbrush') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
